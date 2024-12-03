@@ -37,9 +37,10 @@ Currently, there are no defined tests, but you can add your own to validate diff
 
 ## Questions
 
-If you have any questions or need further assistance, feel free to reach out:
-- GitHub: [yourusername](https://github.com/yourusername)
-- Email: [youremail@example.com](mailto:youremail@example.com)
+If you have any questions or need further assistance, do NOT feel free to reach out:
+- GitHub: [yourusername](https://github.com/palthol)
+- Email: [youremail@example.com](mailto:ilikericeat@gmail.com)
+- Seriously, dont reach out i dont care
 
 
 (generated with the CLI README generator)
