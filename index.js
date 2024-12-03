@@ -113,7 +113,6 @@ ${answers.tests}
 If you have any questions, you can NOT reach me at: 
 - GitHub: [${answers.github}](https://github.com/${answers.github})
 - Email: [${answers.email}](mailto:${answers.email})
-- ( seriously, don't contact me. I'm not interested in your questions. )
 `;
 };
 
