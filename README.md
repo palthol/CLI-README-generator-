@@ -1,8 +1,24 @@
 # README Generator CLI
 
+## Table of Contents
+1. [Description](#description)
+2. [Walkthrough](#walkthrough)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [License](#license)
+6. [Contributing](#contributing)
+7. [Tests](#tests)
+8. [Questions](#questions)
+
+
 ## Description
 
 This command-line application generates a professional README.md file based on user input. It utilizes the Inquirer package to prompt the user for details about their project and then dynamically creates a README.md file with the provided information. This tool aims to streamline the process of creating informative and well-structured README files for projects.
+
+## Walkthrough
+
+Walkthrough of the application [here](https://drive.google.com/file/d/1qwz-ByowlmOerfIMNAzsPuzv5fRrLio3/view?usp=drive_link).
+
 
 ## Installation
 
@@ -38,9 +54,9 @@ Currently, there are no defined tests, but you can add your own to validate diff
 ## Questions
 
 If you have any questions or need further assistance, do NOT feel free to reach out:
-- GitHub: [yourusername](https://github.com/palthol)
-- Email: [youremail@example.com](mailto:ilikericeat@gmail.com)
-- Seriously, dont reach out i dont care
+- GitHub: [palth](https://github.com/palthol)
+- Email: [supersecret@gmail.com](mailto:ilikericeat@gmail.com)
+
 
 
 (generated with the CLI README generator)
