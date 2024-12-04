@@ -61,7 +61,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Which license is your project under?',
-    choices: ['MIT', 'GPLv2', 'Apache', 'BSD 3-Clause', 'None'],
+    choices: ['MIT', 'GPLv2', 'Apache', 'BSD_3-Clause-', 'None'],
   },
   {
     type: 'input',
@@ -77,16 +77,21 @@ const questions = [
 
 // Function to generate README content
 const generateReadme = (answers) => {
+
+// badge for license logic
   const licenseBadge = answers.license !== 'None' ? `![License](https://img.shields.io/badge/license-${answers.license}-brightgreen)` : '';
 
+// start of readme template
   return `# ${answers.title}
 
 ${licenseBadge}
 
 ## Description
+
 ${answers.description}
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -95,22 +100,28 @@ ${answers.description}
 - [Questions](#questions)
 
 ## Installation
+
 ${answers.installation}
 
 ## Usage
+
 ${answers.usage}
 
 ## License
+
 This project is licensed under the ${answers.license} license.
 
 ## Contributing
+
 ${answers.contributing}
 
 ## Tests
+
 ${answers.tests}
 
 ## Questions
-If you have any questions, you can NOT reach me at: 
+
+If you have any questions, you can reach me at: 
 - GitHub: [${answers.github}](https://github.com/${answers.github})
 - Email: [${answers.email}](mailto:${answers.email})
 `;
